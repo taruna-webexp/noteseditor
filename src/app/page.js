@@ -95,7 +95,7 @@ const TextEditor = () => {
     <>
       <h1 className='text-center text-3xl'>Add Note</h1>
       <div className="max-w-2xl mt-12 mx-auto p-5 border border-gray-300 rounded-lg shadow-lg bg-white">
-        <div className="!h-92 border border-gray-300 rounded-lg mb-5" ref={editorRef} />
+        <div className="!h-48 border border-gray-300 rounded-lg mb-5" ref={editorRef} />
         <button
           className="px-4 py-2 mt-2  bg-blue-600 text-white rounded-md hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-300"
           onClick={saveNote}
